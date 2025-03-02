@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Portfolio - ABNA TECH</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="https://abnatech.ma/nobg.png" alt="ABNA TECH Logo"></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero contact-hero">
+      <div class="video-background">
+        <video autoplay loop muted playsinline>
+          <source src="https://demo.themovation.com/stratus/wp-content/uploads/2017/09/Saint_Barthelemy.mp4"
+            type="video/mp4">
+        </video>
+      </div>
+      <h1>Nos Réalisations</h1>
+      <p>Découvrez nos projets récents</p>
+    </div>
+
+    <section class="portfolio-section">
+      <div class="section-heading fade-in">
+        <h2>Projets Récents</h2>
+        <div class="heading-divider"></div>
+        <p class="heading-description">Voici quelques-uns de nos projets les plus récents et innovants</p>
+      </div>
+
+      <div class="portfolio-filter fade-in">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+      </div>
+
+      <div class="portfolio-container">
+        <!-- Project 1 -->
+        <div class="portfolio-item slide-in-left" data-category="web">
+          <div class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Projet Web">
+            <div class="portfolio-overlay">
+              <a href="project-details.html?id=1" class="portfolio-link">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <h3>E-commerce Plateforme</h3>
+            <p class="portfolio-category">Web Development</p>
+            <p class="portfolio-description">Création d'une plateforme e-commerce complète avec système de paiement intégré, gestion des stocks et interface administrateur personnalisée.</p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-item fade-in" data-category="mobile">
+          <div class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Application Mobile">
+            <div class="portfolio-overlay">
+              <a href="project-details.html?id=2" class="portfolio-link">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <h3>Application de Livraison</h3>
+            <p class="portfolio-category">Mobile Development</p>
+            <p class="portfolio-description">Développement d'une application mobile pour la livraison de repas avec géolocalisation en temps réel et système de notation pour les livreurs.</p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-item slide-in-right" data-category="design">
+          <div class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Design UI/UX">
+            <div class="portfolio-overlay">
+              <a href="project-details.html?id=3" class="portfolio-link">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <h3>Refonte UI/UX</h3>
+            <p class="portfolio-category">UI/UX Design</p>
+            <p class="portfolio-description">Refonte complète de l'interface utilisateur d'une application bancaire existante, avec amélioration de l'expérience utilisateur et tests d'utilisabilité.</p>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="portfolio-item slide-in-left" data-category="web">
+          <div class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Système CRM">
+            <div class="portfolio-overlay">
+              <a href="project-details.html?id=4" class="portfolio-link">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <h3>Système CRM Personnalisé</h3>
+            <p class="portfolio-category">Web Development</p>
+            <p class="portfolio-description">Développement d'un système CRM sur mesure pour une agence immobilière, incluant la gestion des clients, des biens et des transactions.</p>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="portfolio-item fade-in" data-category="mobile">
+          <div class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1599496505304-0e7a04e964d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Application Fitness">
+            <div class="portfolio-overlay">
+              <a href="project-details.html?id=5" class="portfolio-link">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <h3>Application Fitness</h3>
+            <p class="portfolio-category">Mobile Development</p>
+            <p class="portfolio-description">Création d'une application mobile de fitness avec programmes d'entraînement personnalisés, suivi des progrès et intégration de capteurs de santé.</p>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="portfolio-item slide-in-right" data-category="design">
+          <div class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Identité Visuelle">
+            <div class="portfolio-overlay">
+              <a href="project-details.html?id=6" class="portfolio-link">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <h3>Identité Visuelle Complete</h3>
+            <p class="portfolio-category">Design Graphique</p>
+            <p class="portfolio-description">Création complète de l'identité visuelle d'une startup technologique, incluant logo, charte graphique, supports marketing et site web.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta-content zoom-in">
+        <h2>Vous avez un projet similaire en tête?</h2>
+        <a href="contact.html" class="cta-btn">Discutons-en</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about fade-in">
+        <h3>À propos de nous</h3>
+        <p>ABNA Tech est votre partenaire technologique de confiance. Notre expertise couvre le développement
+          d'applications sur mesure, l'intégration de solutions techniques complexes, et la création d'expériences
+          numériques innovantes pour transformer vos idées en réalité.</p>
+      </div>
+
+      <div class="footer-contact fade-in">
+        <h3>Contact Info</h3>
+        <ul>
+          <li><i class="far fa-envelope"></i> contact@abnatech.ma</li>
+          <li><i class="fas fa-phone"></i> +212 602-536302</li>
+          <li><i class="fas fa-map-marker-alt"></i> +212 628-568219</li>
+        </ul>
+        <h4>Nous Trouver:</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom fade-in">
+      <p>© ABNA TECH - 2025</p>
+    </div>
+  </footer>
+
+  <a id="scrollUp" href="#" title="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
